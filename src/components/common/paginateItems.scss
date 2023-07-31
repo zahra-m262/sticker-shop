@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 2rem;
+    list-style: none;
+
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DDD6FE;
+    border-radius: .375rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: .5rem;
+    cursor: pointer;
+
+}
+
+.active{
+    background-color: #5B21B6;
+    color: #DDD6FE;
+
+    &:hover{
+        background-color: #4C1D95;
+    }
+
+}
+

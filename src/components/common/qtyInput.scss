@@ -1,0 +1,93 @@
+input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+.qty-input-container{
+    display: flex;
+    flex-direction: row;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    position: relative;
+    background-color: transparent;
+    margin-top: .25rem;
+}
+
+.qty-input-button{
+    background-color: rgb(209, 213, 219);
+    color: rgb(75, 85, 99);
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 1.5rem;
+    border: none;
+    border-bottom-right-radius: .25rem;
+    border-top-right-radius: .25rem;
+
+
+     
+    &:hover{
+        background-color: rgb(156, 163, 175);
+        color: rgb(55, 65, 81);
+    }
+}
+
+.qty-input{
+    text-align: center;
+    width: 2.5rem;
+    background-color: rgb(209, 213, 219);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: rgb(55, 65, 81);
+    outline: none;
+    border: none;
+    
+
+    &:focus{
+        outline: none;
+    }
+
+    &:hover{
+        color: black;
+    }
+}
+
+.qty-input-button-decrement{
+    background-color: rgb(209, 213, 219);
+    color: rgb(75, 85, 99);
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 1.5rem;
+    border: none;
+    border-bottom-left-radius: .25rem;
+    border-top-left-radius: .25rem;
+
+
+     
+    &:hover{
+        background-color: rgb(156, 163, 175);
+        color: rgb(55, 65, 81);
+    }
+}
+
+button span{
+    margin: auto;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 100;
+
+}
+
+input:focus{
+    outline: none !important;
+
+}
+button:focus{
+    outline: none !important;
+}
